@@ -12,13 +12,13 @@ class MainActivity : AppCompatActivity() {
 
         val javaBook = BookJava("The Mind's i", 780659876585)
         val kotlinBook1 = BookKotlin1("Quantum Gravity",567446464786)
-        val kotlinBook2 = BookKotlin2("Quantum Gravity",567446464786)
+        val kotlinBook2 = BookKotlin2("Gravity",567446464786)
 
-        javaBookName.text = "Book: ${javaBook.title}"
-        javaISBN.text = "ISBN: ${javaBook.isbn}}"
-        kotlinName1.text = "Book: ${kotlinBook1.title}"
-        kotlinISBN1.text = "ISBN: ${kotlinBook1.isbn}"
-        kotlinName2.text = "Book: ${kotlinBook2.title}"
-        kotlinISBN2.text = "ISBN: ${kotlinBook2.isbn}"
+        javaBookName.text = getString(R.string.bookLabel, javaBook.title)
+        javaISBN.text = getString(R.string.isbnLabel, javaBook.isbn)
+        kotlinName1.text = getString(R.string.bookLabel, kotlinBook1.title)
+        kotlinISBN1.text = getString(R.string.isbnLabel, kotlinBook1.isbn)
+        kotlinName2.text = getString(R.string.bookLabel, kotlinBook2.title)
+        kotlinISBN2.text = getString(R.string.isbnLabel, kotlinBook2.isbn)
     }
 }
