@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">DemoKotlinApp</string>
+    <string name="JavaClassTitle">Java Book Class</string>
+    <string name="Kotlin1Title" >Kotlin Book Class 1</string>
+    <string name="Kotlin1Title2" >Kotlin Book Class 2</string>
+    <string name="isbnLabel" >ISBN: </string>
+
 </resources>
